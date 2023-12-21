@@ -1,4 +1,44 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body, html {
+    font-family: Arial, sans-serif; /* Your preferred font */
+    font-size: 16px; /* Your preferred font size */
+    line-height: 1.6; /* Your preferred line height */
+    color: #333; /* Your preferred text color */
+    background-color: #fff; /* Your preferred background color */
+}
+
+
 .myImageStyle {
     width: 20rem;
     height: auto;
+}
+
+.recipe-list__body{
+    display: flexbox;
+    text-align: center;
+    
+}
+
+.recipe-list__title {
+    width: auto;
+    height: 5vh;
+    /* text-align: left; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe-list__ul{
+    width: auto;
+    height: 5vh;
+    /* text-align: left; */
+    margin-left: auto;
+    margin-right: auto;
 }
