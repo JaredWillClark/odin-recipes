@@ -13,6 +13,8 @@ body, html {
     line-height: 1.6; /* Your preferred line height */
     color: #333; /* Your preferred text color */
     background-color: #fff; /* Your preferred background color */
+
+    /* overflow-y: hidden; */
 }
 
 
@@ -33,6 +35,7 @@ body, html {
     /* text-align: left; */
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5vh;
 }
 
 .recipe-list__ul{
@@ -41,4 +44,9 @@ body, html {
     /* text-align: left; */
     margin-left: auto;
     margin-right: auto;
+}
+
+.recipe-list__li{
+    margin-left: 0;
+
 }
